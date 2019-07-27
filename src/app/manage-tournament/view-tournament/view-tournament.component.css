@@ -1,0 +1,5 @@
+.search-header, .pagination-container{
+    width: 80%;
+    margin: 20px auto;
+    position: relative;
+}

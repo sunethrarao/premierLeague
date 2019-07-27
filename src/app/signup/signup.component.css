@@ -1,0 +1,17 @@
+form{
+    /* width: 50%; */
+    margin: 10px auto;
+  }
+  mat-form-field {
+    width: 100%;    
+    max-width: 300px;
+    display: block;
+  }
+  button {
+    margin-top:10px;
+  }
+
+  button.btn.btn-primary {
+    margin-right: 20px;
+    width: 100px;
+}

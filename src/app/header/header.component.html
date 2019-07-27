@@ -1,0 +1,13 @@
+<mat-toolbar color="primary" *ngIf="isLoggedIn$ | async as isLoggedIn">
+    <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+<span>
+        Premier League
+    </span>
+    <span class="fill-remaining-space"></span>
+    <button mat-button class="pull-right" routerLink="/manage-tournament">Manage</button>
+   
+    
+    <button mat-button (click)="onLogout()" *ngIf="isLoggedIn">Logout</button>
+  </mat-toolbar>
+
+
