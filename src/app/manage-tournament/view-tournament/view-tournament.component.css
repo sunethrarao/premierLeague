@@ -1,5 +1,6 @@
-.search-header, .pagination-container{
-    width: 80%;
+.search-hero, table{
+    width: 85%;
     margin: 20px auto;
     position: relative;
 }
+

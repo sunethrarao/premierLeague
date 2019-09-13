@@ -1,8 +1,23 @@
-<p>manage-tournament works!</p>
+<!-- <p>manage-tournament works!</p> -->
 
-<button class="btn btn-primary" routerLink="/view-tournament">View Tournament</button>
-<button class="btn btn-primary" routerLink="/add-tournament">Add Tournament</button>
+<div class="text-center popover-title">
+  <button
+    class="btn btn-primary"
+    routerLink="/manage-tournament/view-tournament"
+  >
+    View Tournament
+  </button>
+  &nbsp;
+  <button
+    class="btn btn-primary"
+    routerLink="/manage-tournament/add-tournament"
+  >
+    Add Tournament
+  </button>
+</div>
 <!-- <button class="btn btn-primary" routerLink="/edit-tournament">Update Tournament</button> -->
 <!-- <app-view-tournament></app-view-tournament> -->
 <!-- <app-edit-tournament></app-edit-tournament>
 <app-add-tournament></app-add-tournament> -->
+
+<router-outlet></router-outlet>
